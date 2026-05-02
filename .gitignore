@@ -222,3 +222,5 @@ __marimo__/
 poetry.lock
 pyproject.toml
 README.md
+
+.devcontainer
