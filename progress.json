@@ -1,0 +1,42 @@
+{
+  "identidades_y_ecuaciones": {
+    "hechos": 0,
+    "totales": 4,
+    "aciertos": 0
+  },
+  "elementos_ecuacion": {
+    "hechos": 0,
+    "totales": 3,
+    "aciertos": 0,
+    "part": 0
+  },
+  "ecuaciones_equivalentes": {
+    "hechos": 0,
+    "totales": 3,
+    "aciertos": 0,
+    "part": 0
+  },
+  "primer_grado_sumar_restar": {
+    "hechos": 0,
+    "aciertos": 0,
+    "totales": 3
+  },
+  "primer_grado_multiplicar_dividir": {
+    "hechos": 0,
+    "aciertos": 0,
+    "totales": 3
+  },
+  "primer_grado_combinadas": {
+    "hechos": 0,
+    "aciertos": 0,
+    "totales": 3
+  },
+  "resolucion_problemas": {
+    "hechos": 0,
+    "aciertos": 0,
+    "totales": 3
+  },
+  "_meta": {
+    "last_section": "Identidades y ecuaciones"
+  }
+}
