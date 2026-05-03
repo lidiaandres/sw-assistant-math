@@ -16,7 +16,7 @@ def respuesta_correcta(answer, solution, tol=1e-6):
     nums_alumno = extract_numbers(answer)
     nums_solucion = extract_numbers(solution)
     
-    if len(nums_alumno) != len(solution):
+    if len(nums_alumno) != len(nums_solucion):
         return False
     
     nums_alumno = sorted(nums_alumno)
