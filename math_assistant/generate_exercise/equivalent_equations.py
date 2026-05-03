@@ -112,7 +112,7 @@ def check_answer(progress: dict[str, Any], answer: str, state: dict[str, int]) -
         if parts[part_idx] == "Ecuación equivalente":
             feedback = f"❌ No es correcto. \n\n <b>Ten en cuenta que dos ecuaciones son equivalentes cuando tienen la misma solución.<b>\n\n <b>Una solución posible es: {expected}<b> \n\n Sigue intentándolo. 💪"
         else:
-            feedback = f"❌ No es correcto. La respuesta era: **{expected}**.\n\nSigue intentándolo. 💪"
+            feedback = f"❌ No es correcto. La respuesta era: **{expected}**.\n\nBuen intento, vamos con el siguiente ejercicio. 💪"
 
     next_part = part_idx + 1
     finished_exercise = False

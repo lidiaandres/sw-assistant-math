@@ -11,7 +11,7 @@ def check_answer(answer: str, num_exercise: int) -> str:
     explanation = solutions.get(str(num_exercise), {}).get("explanation", "")
     if expected is not None and answer.lower().replace(" ", "") == str(expected).lower().replace(" ", ""):
         return "¡Muy bien! Sigue así. 🌟"
-    return f"❌ No es correcto.\n\n{explanation}\n\nSigue intentándolo. 💪"
+    return f"❌ No es correcto.\n\n{explanation}\n\n Buen intento, vamos con el siguiente ejercicio. 💪"
 
 def select_exercise(progress: dict) -> tuple[str, int]:
 

@@ -37,7 +37,7 @@ def check_answer(answer: str, num_exercise: int) -> str:
     bool_respuesta = respuesta_correcta(answer, expected)
     if expected is not None and bool_respuesta:
         return "¡Muy bien! Sigue así. 🌟"
-    return f"❌ No es correcto.\n\n{explanation}\n\nSigue intentándolo. 💪"
+    return f"❌ No es correcto.\n\n{explanation}\n\n Buen intento, vamos con el siguiente ejercicio. 💪"
 
 def select_exercise(progress: dict) -> tuple[str, int]:
     """Devuelve el ejercicio de resolución de problemas según el progreso."""
